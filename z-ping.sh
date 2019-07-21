@@ -1,5 +1,5 @@
 #!/bin/bash
-#####		一键Ping测试			#####
+#####		Ping测试及路由跟踪		  #####
 #####		Author:xiaoz.me			#####
 #####		Update:2019-06-03		#####
 
@@ -25,8 +25,8 @@ location=(
 dnsip=(
 	'61.139.2.69'		#四川 电信
 	'219.150.32.132'	#天津 电信
-	'218.2.2.2'			#江苏 电信
-	'119.6.6.6'			#四川 联通
+	'218.2.2.2'		#江苏 电信
+	'119.6.6.6'		#四川 联通
 	'202.99.160.68'		#河北 联通
 	'221.12.1.227'		#浙江 联通
 	'211.138.180.2'		#安徽 移动
@@ -36,7 +36,7 @@ dnsip=(
 )
 echo '---------------------------------------------------------------------------'
 echo "您的本机IP为：[$osip]"
-function mping(){
+function z-ping(){
 	num=0
 	#Ping次数
 	pnum=$1
@@ -69,7 +69,7 @@ function moretrace(){
 	if [ ! -f "./besttrace" ]
 	then
 		#下载besttrace
-		wget -q http://soft.xiaoz.org/linux/besttrace
+		wget -q http://www.yunqikan.cn/ping-download/besttrace
 		#添加执行权限
 		chmod +x ./besttrace
 	fi
@@ -94,9 +94,9 @@ function moretrace(){
 	echo '---------------------------------------------------------------------------'
 }
 
-mping 10
+z-ping 10
 echo ''
 moretrace
 echo ''
-echo '此结果由mping生成:https://www.xiaoz.me/archives/13044'
+echo '此结果由z-ping生成:https://www.yunqikan.cn'
 echo ''
