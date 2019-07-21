@@ -135,5 +135,5 @@ traceroute to 211.138.180.2 (211.138.180.2), 30 hops max, 60 byte packets
 
 ---------------------------------------------------------------------------
 
-此结果由mping生成:https://github.com/yunqikan/z-ping
+测评结果由mping生成:https://github.com/yunqikan/z-ping
 ```
