@@ -98,5 +98,5 @@ z-ping 10
 echo ''
 moretrace
 echo ''
-echo '此结果由z-ping生成:https://www.yunqikan.cn'
+echo '测评结果由z-ping生成:https://www.yunqikan.cn'
 echo ''
