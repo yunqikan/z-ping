@@ -68,7 +68,7 @@ function moretrace(){
 	#检查besttrace是否存在
 	if [ ! -f "./besttrace" ]
 	then
-		#下载besttrace   http://www.yunqikan.cn/ping-download/besttrace
+		#下载besttrace 
 		wget -q https://raw.github.com/yunqikan/z-ping/master/besttrace
 		#添加执行权限
 		chmod +x ./besttrace
