@@ -1,6 +1,6 @@
 #!/bin/bash
 #####		Ping测试及路由跟踪		  #####
-#####		Author:xiaoz.me			#####
+#####		Author:yunqikan			#####
 #####		Update:2019-06-03		#####
 
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/bin:/sbin
